@@ -36,7 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["cors", "npm:2.8.5"],\
             ["esbuild", "npm:0.18.17"],\
             ["express", "npm:4.18.2"],\
-            ["express-async-errors", "virtual:94e06100b65aa09e2994cae5b058727ee10d6f0245907ef27b6515a7766c73d0a47de1367a13c4bcf54553e2ca6f347478620ef8d1b737ab413ee3a02be1958a#npm:3.1.1"],\
+            ["express-async-handler", "npm:1.2.0"],\
             ["fast-json-patch", "npm:3.1.1"],\
             ["jsonpath-plus", "npm:7.2.0"],\
             ["nodemon", "npm:3.0.1"],\
@@ -1211,24 +1211,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["express-async-errors", [\
-        ["npm:3.1.1", {\
-          "packageLocation": "./.yarn/cache/express-async-errors-npm-3.1.1-c0a6b1e552-3a2a6df8ea.zip/node_modules/express-async-errors/",\
+      ["express-async-handler", [\
+        ["npm:1.2.0", {\
+          "packageLocation": "./.yarn/cache/express-async-handler-npm-1.2.0-475fa8a2fc-ab9ebba8b8.zip/node_modules/express-async-handler/",\
           "packageDependencies": [\
-            ["express-async-errors", "npm:3.1.1"]\
-          ],\
-          "linkType": "SOFT"\
-        }],\
-        ["virtual:94e06100b65aa09e2994cae5b058727ee10d6f0245907ef27b6515a7766c73d0a47de1367a13c4bcf54553e2ca6f347478620ef8d1b737ab413ee3a02be1958a#npm:3.1.1", {\
-          "packageLocation": "./.yarn/__virtual__/express-async-errors-virtual-bb939c077c/0/cache/express-async-errors-npm-3.1.1-c0a6b1e552-3a2a6df8ea.zip/node_modules/express-async-errors/",\
-          "packageDependencies": [\
-            ["express-async-errors", "virtual:94e06100b65aa09e2994cae5b058727ee10d6f0245907ef27b6515a7766c73d0a47de1367a13c4bcf54553e2ca6f347478620ef8d1b737ab413ee3a02be1958a#npm:3.1.1"],\
-            ["@types/express", "npm:4.17.17"],\
-            ["express", "npm:4.18.2"]\
-          ],\
-          "packagePeers": [\
-            "@types/express",\
-            "express"\
+            ["express-async-handler", "npm:1.2.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2397,7 +2384,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["cors", "npm:2.8.5"],\
             ["esbuild", "npm:0.18.17"],\
             ["express", "npm:4.18.2"],\
-            ["express-async-errors", "virtual:94e06100b65aa09e2994cae5b058727ee10d6f0245907ef27b6515a7766c73d0a47de1367a13c4bcf54553e2ca6f347478620ef8d1b737ab413ee3a02be1958a#npm:3.1.1"],\
+            ["express-async-handler", "npm:1.2.0"],\
             ["fast-json-patch", "npm:3.1.1"],\
             ["jsonpath-plus", "npm:7.2.0"],\
             ["nodemon", "npm:3.0.1"],\

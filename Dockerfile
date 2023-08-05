@@ -3,8 +3,8 @@ COPY . /app
 WORKDIR /app
 
 RUN yarn set version stable && \
-  yarn install && \
-  yarn bundle
+  yarn && \
+  yarn build
 
 FROM gcr.io/distroless/nodejs18-debian11
 COPY --from=build-env /app/dist /app

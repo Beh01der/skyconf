@@ -976,12 +976,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"express-async-errors@npm:^3.1.1":
-  version: 3.1.1
-  resolution: "express-async-errors@npm:3.1.1"
-  peerDependencies:
-    express: ^4.16.2
-  checksum: 3a2a6df8ea957185df401a239189d617715c38fba13fac8ced7750b25fa95b0ae656e5d1385d12d0e4dcd7997e90d070b218e86abcf8e68bb6048830b53ba668
+"express-async-handler@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "express-async-handler@npm:1.2.0"
+  checksum: ab9ebba8b8366954cb06ab87cf91fc974428993a97940c499114134ce33144f5d1ffad380e60a53a1569c3cd9501cb209e1fb57b1845a4fc8ff449937598f2f1
   languageName: node
   linkType: hard
 
@@ -2078,7 +2076,7 @@ __metadata:
     cors: ^2.8.5
     esbuild: ^0.18.17
     express: ^4.18.2
-    express-async-errors: ^3.1.1
+    express-async-handler: ^1.2.0
     fast-json-patch: ^3.1.1
     jsonpath-plus: ^7.2.0
     nodemon: ^3.0.1
